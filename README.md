@@ -97,7 +97,7 @@ Hotkeys:
     Shift+Up - Move to up
     Shift+Down - Move to down
   In block/field:
-    Ctrl+D - Deletet this
+    Ctrl+D - Delete this
     Shift+Up - Move to up
     Shift+Down - Move to down
 ```
