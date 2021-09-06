@@ -34,6 +34,8 @@ MODBASE - HEX Смещение модуля в ОЗУ. У x32 исполняем
 HPATTERN - Путь к универсальному макрос-шаблону, по которому будет строиться конечный файл макросов.
 HBUILD - Конечный макрос-файл.
 
+Можно использовать колесо мыши на разных полях, также действуют зажатия клавиш Alt || Ctrl || Shift.
+
 Хоткеи:
   Главные:
     Ctrl+B - Создать блок
@@ -85,6 +87,8 @@ MODBASE - HEX Offset of the module in RAM. x32 executables have 400000 by defaul
 HPATTERN - The path to the universal macro template, according to which the final macro file will be built.
 HBUILD - Final macro file.
 
+You can use the mouse wheel on different fields, pressing the Alt || Ctrl || Shift keys also works.
+
 Hotkeys:
   Main:
     Ctrl+B - Create block
@@ -97,7 +101,7 @@ Hotkeys:
     Shift+Up - Move to up
     Shift+Down - Move to down
   In block/field:
-    Ctrl+D - Deletet this
+    Ctrl+D - Delete this
     Shift+Up - Move to up
     Shift+Down - Move to down
 ```
