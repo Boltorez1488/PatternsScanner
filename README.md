@@ -87,7 +87,7 @@ MODBASE - HEX Offset of the module in RAM. x32 executables have 400000 by defaul
 HPATTERN - The path to the universal macro template, according to which the final macro file will be built.
 HBUILD - Final macro file.
 
-You can use the mouse wheel on different fields, pressing the Alt || keys also works. Ctrl || Shift.
+You can use the mouse wheel on different fields, pressing the Alt || Ctrl || Shift keys also works.
 
 Hotkeys:
   Main:
