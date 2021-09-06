@@ -1,0 +1,16 @@
+[Block 1]: {
+	??? - Ignored field
+	00401436 - Test str 1
+	00401449 - Test str 2
+	0040145C - Test str 3
+}
+
+[Block 2]: {
+	0040145C - Test str 3
+	00401449 - Test str 2
+	00401436 - Test str 1
+
+	[Sub-Block]: {
+		00401436,00401449,0040145C - All strings into one field
+	}
+}

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pattern>
+  <Window>
+    <Top>77</Top>
+    <Left>368</Left>
+    <Width>1550</Width>
+    <Height>838</Height>
+    <State>2</State>
+  </Window>
+  <ScanFile>1.0.exe</ScanFile>
+  <OutFile>Test_{exe}.txt</OutFile>
+  <PatternFile>cpp/0.0.h</PatternFile>
+  <PatternOutFile>cpp/{exe}.h</PatternOutFile>
+  <ModBase>400000</ModBase>
+  <Items>
+    <Block>
+      <Name>Block 1</Name>
+      <IsExpanded>true</IsExpanded>
+      <Items>
+        <Field>
+          <Left>???</Left>
+          <Comment>Ignored field</Comment>
+        </Field>
+        <Pattern>
+          <Offset>0</Offset>
+          <CheckByte>6</CheckByte>
+          <NumberExtractor>0</NumberExtractor>
+          <PatternBytes>BA ? ? ? ? E8 ? ? ? ? 50 E8 ? ? ? ?</PatternBytes>
+          <Comment>Test str 1</Comment>
+        </Pattern>
+        <Pattern>
+          <Offset>0</Offset>
+          <CheckByte>9</CheckByte>
+          <NumberExtractor>0</NumberExtractor>
+          <PatternBytes>BA 24 67 42 00 E8 DD 01 00 00 50 E8 A7 04 00 00</PatternBytes>
+          <Comment>Test str 2</Comment>
+        </Pattern>
+        <Pattern>
+          <Offset>0</Offset>
+          <CheckByte>C</CheckByte>
+          <NumberExtractor>0</NumberExtractor>
+          <PatternBytes>BA 3C 67 42 00 E8 CA 01 00 00 50</PatternBytes>
+          <Comment>Test str 3</Comment>
+        </Pattern>
+      </Items>
+    </Block>
+    <Block>
+      <Name>Block 2</Name>
+      <IsExpanded>true</IsExpanded>
+      <Items>
+        <Pattern>
+          <Offset>0</Offset>
+          <CheckByte></CheckByte>
+          <NumberExtractor>3</NumberExtractor>
+          <PatternBytes>BA ? ? ? ? E8 ? ? ? ? 50 E8 ? ? ? ?</PatternBytes>
+          <Comment>Test str 3</Comment>
+        </Pattern>
+        <Pattern>
+          <Offset>0</Offset>
+          <CheckByte></CheckByte>
+          <NumberExtractor>2</NumberExtractor>
+          <PatternBytes>BA ? ? ? ? E8 ? ? ? ? 50 E8 ? ? ? ?</PatternBytes>
+          <Comment>Test str 2</Comment>
+        </Pattern>
+        <Pattern>
+          <Offset>0</Offset>
+          <CheckByte></CheckByte>
+          <NumberExtractor>1</NumberExtractor>
+          <PatternBytes>BA ? ? ? ? E8 ? ? ? ? 50 E8 ? ? ? ?</PatternBytes>
+          <Comment>Test str 1</Comment>
+        </Pattern>
+        <Block>
+          <Name>Sub-Block</Name>
+          <IsExpanded>true</IsExpanded>
+          <Items>
+            <Pattern>
+              <Offset>0</Offset>
+              <CheckByte></CheckByte>
+              <NumberExtractor>0</NumberExtractor>
+              <PatternBytes>BA ? ? ? ? E8 ? ? ? ? 50 E8 ? ? ? ?</PatternBytes>
+              <Comment>All strings into one field</Comment>
+            </Pattern>
+          </Items>
+        </Block>
+      </Items>
+    </Block>
+  </Items>
+</Pattern>
