@@ -43,12 +43,12 @@ HBUILD - Конечный макрос-файл.
     Ctrl+B - Создать вложенный блок
     Ctrl+F - Создать шаблон
     Ctrl+R - Создать комментирующий слот
-    Shift+Up - Выделить вышестоящий слот
-    Shift+Down - Выделить нижестоящий слот
+    Shift+Up - Переместить выше
+    Shift+Down - Переместить ниже
   Внутри шаблона/слота:
     Ctrl+D - Удалить текущий
-    Shift+Up - Выделить вышестоящий слот
-    Shift+Down - Выделить нижестоящий слот
+    Shift+Up - Переместить выше
+    Shift+Down - Переместить ниже
 ```
 
 # Patterns scanner :us:
@@ -94,10 +94,10 @@ Hotkeys:
     Ctrl+B - Create nested block
     Ctrl+F - Create pattern
     Ctrl+R - Create comment field
-    Shift+Up - Select up field
-    Shift+Down - Select down field
+    Shift+Up - Move to up
+    Shift+Down - Move to down
   In block/field:
     Ctrl+D - Deletet this
-    Shift+Up - Select up field
-    Shift+Down - Select down field
+    Shift+Up - Move to up
+    Shift+Down - Move to down
 ```
