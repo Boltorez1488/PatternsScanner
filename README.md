@@ -1,3 +1,5 @@
+![PatternsScanner](https://user-images.githubusercontent.com/89551246/132249559-234a812a-4df1-4d72-bb49-ae94866f56b2.jpg)
+
 # Сканер шаблонов :ru:
 **Windows EXE/DLL массивный AOB сканнер для реверсеров (x86/x64)**
 
