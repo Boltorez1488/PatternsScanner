@@ -1,6 +1,6 @@
 ![PatternsScanner](https://user-images.githubusercontent.com/89551246/132249559-234a812a-4df1-4d72-bb49-ae94866f56b2.jpg)
 
-# Сканер шаблонов :ru:
+# Сканер сигнатур :ru:
 **Windows EXE/DLL массивный AOB сканнер для реверсеров (x86/x64)**
 
 Позволяет находить большое количество оффсетов в пару кликов для обновления софта.
@@ -53,7 +53,7 @@ HBUILD - Конечный макрос-файл.
     Shift+Down - Переместить ниже
 ```
 
-# Patterns scanner :us:
+# Signatures scanner :us:
 **Windows EXE/DLL massive AOB scanner for reversers (x86/x64)**
 
 Allows you to find a large number of offsets in a couple of clicks to update the software.
